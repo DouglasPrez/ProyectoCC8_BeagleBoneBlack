@@ -1,0 +1,8 @@
+
+############################################################################
+# apps/examples/espcli/Make.defs
+############################################################################
+
+ifneq ($(CONFIG_EXAMPLES_ESPCLI),)
+CONFIGURED_APPS += $(APPDIR)/examples/espcli
+endif

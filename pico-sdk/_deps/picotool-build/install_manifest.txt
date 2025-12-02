@@ -1,0 +1,7 @@
+/home/doug/nuttxspace-picow/pico-sdk/_deps/picotool/picotool
+/home/doug/nuttxspace-picow/pico-sdk/_deps/picotool/picotoolTargets.cmake
+/home/doug/nuttxspace-picow/pico-sdk/_deps/picotool/picotoolTargets-release.cmake
+/home/doug/nuttxspace-picow/pico-sdk/_deps/picotool/picotoolConfig.cmake
+/home/doug/nuttxspace-picow/pico-sdk/_deps/picotool/picotoolConfigVersion.cmake
+/home/doug/nuttxspace-picow/pico-sdk/_deps/picotool/enc_bootloader.elf
+/home/doug/nuttxspace-picow/pico-sdk/_deps/picotool/enc_bootloader_mbedtls.elf

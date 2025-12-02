@@ -1,0 +1,29 @@
+
+#
+# apps/examples/espcli/Kconfig
+#
+
+config EXAMPLES_ESPCLI
+    tristate "espcli: Cliente UART → ESP"
+    default n
+    ---help---
+        Habilita el ejemplo espcli que envía 'IP MENSAJE' por /dev/ttyS1
+        y muestra la respuesta en NSH.
+
+if EXAMPLES_ESPCLI
+
+config EXAMPLES_ESPCLI_PROGNAME
+    string "Program name"
+    default "espcli"
+    ---help---
+        Nombre del programa/comando en NSH.
+
+config EXAMPLES_ESPCLI_PRIORITY
+    int "espcli task priority"
+    default 100
+
+config EXAMPLES_ESPCLI_STACKSIZE
+    int "espcli stack size"
+    default DEFAULT_TASK_STACKSIZE
+
+endif
